@@ -1,0 +1,2 @@
+ID,Number,Name,SaleNumber,Price,TotalNumber
+4,1004,bolt,1,100,100

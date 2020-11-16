@@ -1,0 +1,2 @@
+ID,Number,Name,SaleNumber,Price,TotalNumber
+2,1002,插座,20,10,200

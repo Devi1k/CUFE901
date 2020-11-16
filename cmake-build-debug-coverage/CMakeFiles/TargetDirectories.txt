@@ -1,0 +1,7 @@
+D:/Code/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+D:/Code/cmake-build-debug-coverage/CMakeFiles/Real.dir
+D:/Code/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+D:/Code/cmake-build-debug-coverage/CMakeFiles/exercisesAC.dir
+D:/Code/cmake-build-debug-coverage/CMakeFiles/exercises.dir
+D:/Code/cmake-build-debug-coverage/CMakeFiles/main.dir
+D:/Code/cmake-build-debug-coverage/CMakeFiles/Input.dir

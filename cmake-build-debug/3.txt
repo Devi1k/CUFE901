@@ -1,0 +1,2 @@
+ID,Number,Name,SaleNumber,Price,TotalNumber
+3,1003,电线,100,10,1000
