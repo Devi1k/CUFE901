@@ -67,10 +67,10 @@ RM = "E:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code
+CMAKE_SOURCE_DIR = D:\MasterofSoftEngineering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\cmake-build-debug
+CMAKE_BINARY_DIR = D:\MasterofSoftEngineering\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles D:\Code\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -302,32 +302,32 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
-real/2003/5.1.obj: real/2003/5.1.c.obj
+real/2005/2.7.obj: real/2005/2.7.c.obj
 
-.PHONY : real/2003/5.1.obj
+.PHONY : real/2005/2.7.obj
 
 # target to build an object file
-real/2003/5.1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2003/5.1.c.obj
-.PHONY : real/2003/5.1.c.obj
+real/2005/2.7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2005/2.7.c.obj
+.PHONY : real/2005/2.7.c.obj
 
-real/2003/5.1.i: real/2003/5.1.c.i
+real/2005/2.7.i: real/2005/2.7.c.i
 
-.PHONY : real/2003/5.1.i
+.PHONY : real/2005/2.7.i
 
 # target to preprocess a source file
-real/2003/5.1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2003/5.1.c.i
-.PHONY : real/2003/5.1.c.i
+real/2005/2.7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2005/2.7.c.i
+.PHONY : real/2005/2.7.c.i
 
-real/2003/5.1.s: real/2003/5.1.c.s
+real/2005/2.7.s: real/2005/2.7.c.s
 
-.PHONY : real/2003/5.1.s
+.PHONY : real/2005/2.7.s
 
 # target to generate assembly for a file
-real/2003/5.1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2003/5.1.c.s
-.PHONY : real/2003/5.1.c.s
+real/2005/2.7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2005/2.7.c.s
+.PHONY : real/2005/2.7.c.s
 
 # Help Target
 help:
@@ -354,9 +354,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... real/2003/5.1.obj
-	@echo ... real/2003/5.1.i
-	@echo ... real/2003/5.1.s
+	@echo ... real/2005/2.7.obj
+	@echo ... real/2005/2.7.i
+	@echo ... real/2005/2.7.s
 .PHONY : help
 
 

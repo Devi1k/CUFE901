@@ -63,10 +63,10 @@ RM = "E:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code
+CMAKE_SOURCE_DIR = D:\MasterofSoftEngineering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\cmake-build-debug
+CMAKE_BINARY_DIR = D:\MasterofSoftEngineering\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -101,14 +101,14 @@ clean: CMakeFiles/Input.dir/clean
 CMakeFiles/Real.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Real"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Real"
 .PHONY : CMakeFiles/Real.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Real.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Real.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Real.dir/rule
 
 # Convenience name for target.
@@ -128,14 +128,14 @@ CMakeFiles/Real.dir/clean:
 CMakeFiles/exercisesAC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target exercisesAC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target exercisesAC"
 .PHONY : CMakeFiles/exercisesAC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exercisesAC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exercisesAC.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exercisesAC.dir/rule
 
 # Convenience name for target.
@@ -155,14 +155,14 @@ CMakeFiles/exercisesAC.dir/clean:
 CMakeFiles/exercises.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exercises"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exercises"
 .PHONY : CMakeFiles/exercises.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exercises.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exercises.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exercises.dir/rule
 
 # Convenience name for target.
@@ -182,14 +182,14 @@ CMakeFiles/exercises.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -209,14 +209,14 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/Input.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Input"
 .PHONY : CMakeFiles/Input.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Input.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Input.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Input.dir/rule
 
 # Convenience name for target.

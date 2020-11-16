@@ -1,7 +1,7 @@
-D:/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Code/cmake-build-debug/CMakeFiles/Real.dir
-D:/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Code/cmake-build-debug/CMakeFiles/exercisesAC.dir
-D:/Code/cmake-build-debug/CMakeFiles/exercises.dir
-D:/Code/cmake-build-debug/CMakeFiles/main.dir
-D:/Code/cmake-build-debug/CMakeFiles/Input.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/Real.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/exercisesAC.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/exercises.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/main.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/Input.dir

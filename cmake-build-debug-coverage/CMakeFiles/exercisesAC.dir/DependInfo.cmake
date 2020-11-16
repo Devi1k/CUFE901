@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Code/exerciseAfterClass/Chapter9/3.4.c" "D:/Code/cmake-build-debug-coverage/CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj"
+  "D:/MasterofSoftEngineering/exerciseAfterClass/Chapter9/3.4.c" "D:/MasterofSoftEngineering/cmake-build-debug-coverage/CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
