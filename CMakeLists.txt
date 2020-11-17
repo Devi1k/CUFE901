@@ -3,7 +3,7 @@ project(Code C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Real real/2007/2.5.c)
+add_executable(Real real/2009/1.24.c)
 add_executable(main main.c)
 add_executable(Input IOinput.c)
 add_executable(exercises exercises/6.135.c)
