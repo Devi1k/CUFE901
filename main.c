@@ -5,9 +5,10 @@
 #include "stdio.h"
 
 int main(void) {
-    int a,b,c;
-    a = b = c = 3;
-    double p = (a+b+c)/2.0;
-    printf("%lf",p);
+    char a[10],*p;
+    p = a;
+    gets(p);
+    puts(a);
+    puts(p);
     return 0;
 }
