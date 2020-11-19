@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Input.dir/IOinput.c.obj"
+  "CMakeFiles/Input.dir/IO/IOinput.c.obj"
   "Input.exe"
   "Input.exe.manifest"
   "Input.pdb"

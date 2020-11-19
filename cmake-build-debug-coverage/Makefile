@@ -194,32 +194,32 @@ Input/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/build
 .PHONY : Input/fast
 
-IOinput.obj: IOinput.c.obj
+IO/IOinput.obj: IO/IOinput.c.obj
 
-.PHONY : IOinput.obj
+.PHONY : IO/IOinput.obj
 
 # target to build an object file
-IOinput.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IOinput.c.obj
-.PHONY : IOinput.c.obj
+IO/IOinput.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IO/IOinput.c.obj
+.PHONY : IO/IOinput.c.obj
 
-IOinput.i: IOinput.c.i
+IO/IOinput.i: IO/IOinput.c.i
 
-.PHONY : IOinput.i
+.PHONY : IO/IOinput.i
 
 # target to preprocess a source file
-IOinput.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IOinput.c.i
-.PHONY : IOinput.c.i
+IO/IOinput.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IO/IOinput.c.i
+.PHONY : IO/IOinput.c.i
 
-IOinput.s: IOinput.c.s
+IO/IOinput.s: IO/IOinput.c.s
 
-.PHONY : IOinput.s
+.PHONY : IO/IOinput.s
 
 # target to generate assembly for a file
-IOinput.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IOinput.c.s
-.PHONY : IOinput.c.s
+IO/IOinput.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IO/IOinput.c.s
+.PHONY : IO/IOinput.c.s
 
 exerciseAfterClass/Chapter9/3.4.obj: exerciseAfterClass/Chapter9/3.4.c.obj
 
@@ -342,9 +342,9 @@ help:
 	@echo ... exercises
 	@echo ... exercisesAC
 	@echo ... main
-	@echo ... IOinput.obj
-	@echo ... IOinput.i
-	@echo ... IOinput.s
+	@echo ... IO/IOinput.obj
+	@echo ... IO/IOinput.i
+	@echo ... IO/IOinput.s
 	@echo ... exerciseAfterClass/Chapter9/3.4.obj
 	@echo ... exerciseAfterClass/Chapter9/3.4.i
 	@echo ... exerciseAfterClass/Chapter9/3.4.s

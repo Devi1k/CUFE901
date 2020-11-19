@@ -76,27 +76,27 @@ include CMakeFiles/Input.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Input.dir/flags.make
 
-CMakeFiles/Input.dir/IOinput.c.obj: CMakeFiles/Input.dir/flags.make
-CMakeFiles/Input.dir/IOinput.c.obj: ../IOinput.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Input.dir/IOinput.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Input.dir\IOinput.c.obj   -c D:\MasterofSoftEngineering\IOinput.c
+CMakeFiles/Input.dir/IO/IOinput.c.obj: CMakeFiles/Input.dir/flags.make
+CMakeFiles/Input.dir/IO/IOinput.c.obj: ../IO/IOinput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Input.dir/IO/IOinput.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Input.dir\IO\IOinput.c.obj   -c D:\MasterofSoftEngineering\IO\IOinput.c
 
-CMakeFiles/Input.dir/IOinput.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Input.dir/IOinput.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\IOinput.c > CMakeFiles\Input.dir\IOinput.c.i
+CMakeFiles/Input.dir/IO/IOinput.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Input.dir/IO/IOinput.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\IO\IOinput.c > CMakeFiles\Input.dir\IO\IOinput.c.i
 
-CMakeFiles/Input.dir/IOinput.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Input.dir/IOinput.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\IOinput.c -o CMakeFiles\Input.dir\IOinput.c.s
+CMakeFiles/Input.dir/IO/IOinput.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Input.dir/IO/IOinput.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\IO\IOinput.c -o CMakeFiles\Input.dir\IO\IOinput.c.s
 
 # Object files for target Input
 Input_OBJECTS = \
-"CMakeFiles/Input.dir/IOinput.c.obj"
+"CMakeFiles/Input.dir/IO/IOinput.c.obj"
 
 # External object files for target Input
 Input_EXTERNAL_OBJECTS =
 
-Input.exe: CMakeFiles/Input.dir/IOinput.c.obj
+Input.exe: CMakeFiles/Input.dir/IO/IOinput.c.obj
 Input.exe: CMakeFiles/Input.dir/build.make
 Input.exe: CMakeFiles/Input.dir/linklibs.rsp
 Input.exe: CMakeFiles/Input.dir/objects1.rsp
