@@ -5,10 +5,11 @@
 #include "stdio.h"
 
 int main(void) {
-    char a[10],*p;
-    p = a;
-    gets(p);
-    puts(a);
-    puts(p);
-    return 0;
+    for (i = 1; i < 10; ++i) {
+        t = a[i];
+        for (j = i - 1; j >= 0 && (a[j] > t); --j) {
+            a[j + 1] = a[j];
+        }
+        a[j + 1] = t;
+    }
 }

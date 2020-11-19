@@ -8,11 +8,11 @@
 3. ***改错题注意函数类型***
 4. ***各数据类型存储长度:***  
 ![数据类型](/lengthOfDataType.jpg)  
-![](https://www.runoob.com/wp-content/uploads/2014/09/32-64.jpg)
+![数据类型](https://www.runoob.com/wp-content/uploads/2014/09/32-64.jpg)
 5. 运算符优先级:  
 ![优先级](/priority.jpg)
 6. 转义字符表:  
-![alt 转义字符](https://bkimg.cdn.bcebos.com/pic/3bf33a87e950352ab1edf5555043fbf2b3118bdb?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5)
+![alt 转义字符](/ESC.jpg)
 7. 
 
 
@@ -73,4 +73,53 @@
 40. 枚举常量与数组相同，从0开始；枚举定义：enum a{one,two,three}  
 41. 静态数组、变量初始化后，值全部为0
 42. 字符数组的内容不一定是字符串（没有\0的不是字符串
-43. 
+43. 数组定义：类型说明 数组名 常量表达式
+44. 第一维省略的情况下，用数组内元素个数除以第二维大小。若有余数，则商+1就是第一维的大小，没有余数商就是第一维的大小。
+45. 排序算法：
+    1. 插入排序  
+        假设前n个都是已经排好的，新进来的与每个比较，找到适当位置。  
+    算法:  
+    ```
+        for (i = 1; i < 10; ++i) {
+                t = a[i];
+                for (j = i - 1; j >= 0 && (a[j] > t); --j) {
+                    a[j + 1] = a[j];
+                }
+                a[j + 1] = t;
+            }
+    ```   
+    2. 冒泡排序  
+    ```
+		    for (i=0; i<len-1; i++) / 外循环为排序趟数，len个数进行len-1趟 */
+	            for (j=0; j<len-1-i; j++) { /* 内循环为每趟比较的次数，第i趟比较len-i次 */
+	                if (arr[j] > arr[j+1]) { /* 相邻元素比较，若逆序则交换（升序为左大于右，降序反之） */
+	                    temp = arr[j];
+	                    arr[j] = arr[j+1];
+	                    arr[j+1] = temp;
+	                }
+	            }
+    ```
+    3. 二分排序  
+    ```
+	    for (i = 1; i < len; ++i) {
+	        temp = a[i];
+	        low = 0;
+	        high = i - 1;
+	        while (low <= high) {
+	            mid = (low + high) / 2;
+	            if (a[mid] > temp) {
+	                high = mid - 1;
+	            } else {
+	                low = mid + 1;
+	            }
+	        }
+	        for (j = i - 1; j >= low; --j) {
+	            a[j + 1] = a[j];
+	        }
+	        a[high + 1] = temp;
+        }
+    ```  
+46. 二维数组在内存中的存放顺序是按行主顺序存放
+47. 用户可以重新定义标准库函数，且该函数失去原有意义
+48. 形参不能为表达式
+49. 
