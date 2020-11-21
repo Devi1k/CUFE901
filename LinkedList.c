@@ -28,11 +28,34 @@ struct node *create() {
 }
 
 /**
+ * 单链表选择排序
+ * @param head
+ */
+void SelectionSort(struct node *head) {
+    struct node *p, *q, *temp;
+    int t;
+    for (p = head; p->next != NULL; p = p->next) {
+        temp = p;
+        for (q = p->next; q != NULL; q = q->next) {
+            if (q->data > temp->data) {
+                temp = q;
+            }
+        }
+        if (temp != p) {
+            t = temp->data;
+            temp->data = p->data;
+            p->data = t;
+        }
+    }
+}
+
+
+/**
  * 单链表冒泡排序
  * @param head
  */
 
-void sort(struct node *head) {
+void BubbleSort(struct node *head) {
     struct node *p, *pend = NULL;
     int temp;
     p = head;
@@ -51,7 +74,8 @@ void sort(struct node *head) {
 }
 
 /**
- * 删除节点
+ * 删除某结点
+ * @param head
  */
 void delete(struct node *head) {
     struct node *p, *q, *h1;

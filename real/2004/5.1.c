@@ -45,6 +45,7 @@ void sort(struct node *head) {
     }
 }
 
+
 int main(void) {
     struct node *head,*p;
     head = create();
@@ -54,7 +55,7 @@ int main(void) {
         p = p->next;
     }
     puts("\n");
-    sort(head);
+    SelectionSort(head);
     printf("After sorting:");
     p = head;
     while (p!=NULL){
