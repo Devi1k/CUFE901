@@ -8,8 +8,9 @@ struct node {
     int data;
     struct node *next;
 };
+
 /**
- * create link list
+ * 创建链表
  * @return head
  */
 struct node *create() {
@@ -25,8 +26,9 @@ struct node *create() {
     p->next = NULL;
     return head;
 }
+
 /**
- * linklist bubble sort
+ * 单链表冒泡排序
  * @param head
  */
 
@@ -46,4 +48,52 @@ void sort(struct node *head) {
         pend = p;
         p = head;
     }
+}
+
+/**
+ * 删除节点
+ */
+void delete(struct node *head) {
+    struct node *p, *q, *h1;
+    h1 = q = (struct node *) malloc(sizeof(struct node));
+    //前节点
+    q->next = head;
+    p = q->next;
+    //查找待删结点
+    while (p != NULL) {
+        continue;
+    }
+    //delete
+    q->next = p->next;
+    free(p);
+    free(h1);
+}
+
+/**
+ * 将p,q两个带头结点的有序递增链表合并，重复节点删除
+ * @param p
+ * @param q
+ */
+void merge(struct node *p, struct node *q) {
+    struct node *s, *r;
+    r = p;
+    while (r->next) {
+        if (r->next->data < q->next->data)
+            r = r->next;
+        else if (r->next->data > q->next->data) {
+            s = r->next;
+            r->next = s;
+            r = r->next;
+        } else {
+            r = r->next;
+            s = q->next;
+            q->next = s->next;
+            free(s);
+        }
+    }
+    if (r->next == NULL) {
+        r->next = q->next;
+        free(q);
+    }
+
 }

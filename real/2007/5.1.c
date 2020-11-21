@@ -46,11 +46,9 @@ void search(struct node *s1, struct node *s2) {
         else
             break;
     }
-//    putchar(p->ch);
     //delete
     q->next = p->next;
     free(p);
-    s1 = h1->next;
     free(h1);
 }
 
