@@ -105,7 +105,9 @@ void merge(struct node *p, struct node *q) {
         if (r->next->data < q->next->data)
             r = r->next;
         else if (r->next->data > q->next->data) {
-            s = r->next;
+            s = q->next;
+            q->next = s->next;
+            s->next = r->next;
             r->next = s;
             r = r->next;
         } else {

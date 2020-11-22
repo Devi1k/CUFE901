@@ -14,12 +14,7 @@ struct ss get(int a,struct ss five){
 }
 
 int main(void) {
-    char (*a)[3], b[2][3];
-    for (int i = 0; i < 2; ++i) {
-        gets(b[i]);
-    }
-    a = b;
-    a++;
-    printf("%s",*a);
+    printf("%d\n",' ');
+    putchar('76');
 
 }
