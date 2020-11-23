@@ -68,7 +68,7 @@ struct node *merge(struct node *pa, struct node *pb) {
         return pa;
     }
     if (p2 == NULL) {
-        p1->next = pb;
+        p1->next = q1;
         pb->next = head;
         return pb;
     }
@@ -91,7 +91,7 @@ int main(void) {
     pa = input();
     printf("create pb:\n");
     pb = input();
-    printf("before merge:\n");
+//    printf("before merge:\n");
 //    print(pa);
     printf("\n");
 //    print(pb);

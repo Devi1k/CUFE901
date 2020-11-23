@@ -10,7 +10,7 @@ struct node {
 };
 
 /**
- * 创建链表
+ * 创建单链表
  * @return head
  */
 struct node *create() {
@@ -25,6 +25,31 @@ struct node *create() {
     }
     p->next = NULL;
     return head;
+}
+
+/**
+ * 创建循环链表
+ * @return
+ */
+struct node *input() {
+    struct node *head, *p, *q;
+    int n = 0;
+    head = NULL;
+    p = q = (struct node *) malloc(sizeof(struct node));
+    printf("Enter number from big to small:(end with -1:\n");
+    scanf("%d", &p->data);
+    while (p->data != -1) {
+        n++;
+        if (n == 1)
+            head = p;
+        else
+            q->next = p;
+        q = p;
+        p = (struct node *) malloc(sizeof(struct node));
+        scanf("%d", &p->data);
+    }
+    q->next = head;
+    return q;
 }
 
 /**
