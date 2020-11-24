@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/MasterofSoftEngineering/real/2005/5.2.c
-stdlib.h
-D:/MasterofSoftEngineering/real/2005/stdlib.h
+D:/MasterofSoftEngineering/real/2006/5.c
 stdio.h
-D:/MasterofSoftEngineering/real/2005/stdio.h
+D:/MasterofSoftEngineering/real/2006/stdio.h
+stdlib.h
+D:/MasterofSoftEngineering/real/2006/stdlib.h
 

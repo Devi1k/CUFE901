@@ -302,32 +302,32 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
-real/2005/5.2.obj: real/2005/5.2.c.obj
+real/2006/5.obj: real/2006/5.c.obj
 
-.PHONY : real/2005/5.2.obj
+.PHONY : real/2006/5.obj
 
 # target to build an object file
-real/2005/5.2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2005/5.2.c.obj
-.PHONY : real/2005/5.2.c.obj
+real/2006/5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2006/5.c.obj
+.PHONY : real/2006/5.c.obj
 
-real/2005/5.2.i: real/2005/5.2.c.i
+real/2006/5.i: real/2006/5.c.i
 
-.PHONY : real/2005/5.2.i
+.PHONY : real/2006/5.i
 
 # target to preprocess a source file
-real/2005/5.2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2005/5.2.c.i
-.PHONY : real/2005/5.2.c.i
+real/2006/5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2006/5.c.i
+.PHONY : real/2006/5.c.i
 
-real/2005/5.2.s: real/2005/5.2.c.s
+real/2006/5.s: real/2006/5.c.s
 
-.PHONY : real/2005/5.2.s
+.PHONY : real/2006/5.s
 
 # target to generate assembly for a file
-real/2005/5.2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2005/5.2.c.s
-.PHONY : real/2005/5.2.c.s
+real/2006/5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2006/5.c.s
+.PHONY : real/2006/5.c.s
 
 # Help Target
 help:
@@ -354,9 +354,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... real/2005/5.2.obj
-	@echo ... real/2005/5.2.i
-	@echo ... real/2005/5.2.s
+	@echo ... real/2006/5.obj
+	@echo ... real/2006/5.i
+	@echo ... real/2006/5.s
 .PHONY : help
 
 
