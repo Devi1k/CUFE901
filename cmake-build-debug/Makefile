@@ -234,32 +234,32 @@ IO/IOinput.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Input.dir\build.make CMakeFiles/Input.dir/IO/IOinput.c.s
 .PHONY : IO/IOinput.c.s
 
-TanHaoQiang/Chapter5/5.16.obj: TanHaoQiang/Chapter5/5.16.c.obj
+TanHaoQiang/Chapter6/6.14.obj: TanHaoQiang/Chapter6/6.14.c.obj
 
-.PHONY : TanHaoQiang/Chapter5/5.16.obj
+.PHONY : TanHaoQiang/Chapter6/6.14.obj
 
 # target to build an object file
-TanHaoQiang/Chapter5/5.16.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter5/5.16.c.obj
-.PHONY : TanHaoQiang/Chapter5/5.16.c.obj
+TanHaoQiang/Chapter6/6.14.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter6/6.14.c.obj
+.PHONY : TanHaoQiang/Chapter6/6.14.c.obj
 
-TanHaoQiang/Chapter5/5.16.i: TanHaoQiang/Chapter5/5.16.c.i
+TanHaoQiang/Chapter6/6.14.i: TanHaoQiang/Chapter6/6.14.c.i
 
-.PHONY : TanHaoQiang/Chapter5/5.16.i
+.PHONY : TanHaoQiang/Chapter6/6.14.i
 
 # target to preprocess a source file
-TanHaoQiang/Chapter5/5.16.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter5/5.16.c.i
-.PHONY : TanHaoQiang/Chapter5/5.16.c.i
+TanHaoQiang/Chapter6/6.14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter6/6.14.c.i
+.PHONY : TanHaoQiang/Chapter6/6.14.c.i
 
-TanHaoQiang/Chapter5/5.16.s: TanHaoQiang/Chapter5/5.16.c.s
+TanHaoQiang/Chapter6/6.14.s: TanHaoQiang/Chapter6/6.14.c.s
 
-.PHONY : TanHaoQiang/Chapter5/5.16.s
+.PHONY : TanHaoQiang/Chapter6/6.14.s
 
 # target to generate assembly for a file
-TanHaoQiang/Chapter5/5.16.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter5/5.16.c.s
-.PHONY : TanHaoQiang/Chapter5/5.16.c.s
+TanHaoQiang/Chapter6/6.14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter6/6.14.c.s
+.PHONY : TanHaoQiang/Chapter6/6.14.c.s
 
 exerciseAfterClass/Chapter9/3.4.obj: exerciseAfterClass/Chapter9/3.4.c.obj
 
@@ -386,9 +386,9 @@ help:
 	@echo ... IO/IOinput.obj
 	@echo ... IO/IOinput.i
 	@echo ... IO/IOinput.s
-	@echo ... TanHaoQiang/Chapter5/5.16.obj
-	@echo ... TanHaoQiang/Chapter5/5.16.i
-	@echo ... TanHaoQiang/Chapter5/5.16.s
+	@echo ... TanHaoQiang/Chapter6/6.14.obj
+	@echo ... TanHaoQiang/Chapter6/6.14.i
+	@echo ... TanHaoQiang/Chapter6/6.14.s
 	@echo ... exerciseAfterClass/Chapter9/3.4.obj
 	@echo ... exerciseAfterClass/Chapter9/3.4.i
 	@echo ... exerciseAfterClass/Chapter9/3.4.s
