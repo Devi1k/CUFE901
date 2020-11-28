@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/MasterofSoftEngineering/TanHaoQiang/Chapter5/5.16.c
+stdio.h
+D:/MasterofSoftEngineering/TanHaoQiang/Chapter5/stdio.h
+

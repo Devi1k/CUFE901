@@ -1,6 +1,7 @@
 D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/Real.dir
 D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/Tan.dir
 D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/exercisesAC.dir
 D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/exercises.dir
 D:/MasterofSoftEngineering/cmake-build-debug/CMakeFiles/main.dir
