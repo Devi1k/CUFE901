@@ -63,7 +63,7 @@ int main(void) {
     for (int i = 0; i < N; ++i) {
         scanf("%d", pnum + i);
         for (int j = 0; j < M; ++j) {
-            scanf("%f", pgrade + i * M + j);n
+            scanf("%f", pgrade + i * M + j);
         }
     }
     paver = aver;

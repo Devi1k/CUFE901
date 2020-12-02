@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/MasterofSoftEngineering/TanHaoQiang/Chapter8/8.16.c
+D:/MasterofSoftEngineering/TanHaoQiang/Chapter10/10.4.c
 stdio.h
-D:/MasterofSoftEngineering/TanHaoQiang/Chapter8/stdio.h
-string.h
-D:/MasterofSoftEngineering/TanHaoQiang/Chapter8/string.h
+D:/MasterofSoftEngineering/TanHaoQiang/Chapter10/stdio.h
+stdlib.h
+D:/MasterofSoftEngineering/TanHaoQiang/Chapter10/stdlib.h
 

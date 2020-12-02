@@ -76,27 +76,27 @@ include CMakeFiles/Tan.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tan.dir/flags.make
 
-CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.obj: CMakeFiles/Tan.dir/flags.make
-CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.obj: ../TanHaoQiang/Chapter8/8.15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Tan.dir\TanHaoQiang\Chapter8\8.15.c.obj   -c D:\MasterofSoftEngineering\TanHaoQiang\Chapter8\8.15.c
+CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.obj: CMakeFiles/Tan.dir/flags.make
+CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.obj: ../TanHaoQiang/Chapter10/10.4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Tan.dir\TanHaoQiang\Chapter10\10.4.c.obj   -c D:\MasterofSoftEngineering\TanHaoQiang\Chapter10\10.4.c
 
-CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\TanHaoQiang\Chapter8\8.15.c > CMakeFiles\Tan.dir\TanHaoQiang\Chapter8\8.15.c.i
+CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\TanHaoQiang\Chapter10\10.4.c > CMakeFiles\Tan.dir\TanHaoQiang\Chapter10\10.4.c.i
 
-CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\TanHaoQiang\Chapter8\8.15.c -o CMakeFiles\Tan.dir\TanHaoQiang\Chapter8\8.15.c.s
+CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\TanHaoQiang\Chapter10\10.4.c -o CMakeFiles\Tan.dir\TanHaoQiang\Chapter10\10.4.c.s
 
 # Object files for target Tan
 Tan_OBJECTS = \
-"CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.obj"
+"CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.obj"
 
 # External object files for target Tan
 Tan_EXTERNAL_OBJECTS =
 
-Tan.exe: CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.15.c.obj
+Tan.exe: CMakeFiles/Tan.dir/TanHaoQiang/Chapter10/10.4.c.obj
 Tan.exe: CMakeFiles/Tan.dir/build.make
 Tan.exe: CMakeFiles/Tan.dir/linklibs.rsp
 Tan.exe: CMakeFiles/Tan.dir/objects1.rsp
