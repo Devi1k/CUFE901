@@ -3,6 +3,7 @@
 //
 #include "stdio.h"
 #include "string.h"
+
 int strcmpA(char *s, char *t) {
     for (; *s == *t;) {
         if (!*t)
@@ -13,8 +14,8 @@ int strcmpA(char *s, char *t) {
 }
 
 int main(void) {
-    char s[20] = "asdgz";
-    char t[20] = "asdgz";
-    printf("%d ",strcmpA(s,t));
-    printf("%d",strcmp(s,t));
+    char s[20] = "asdge";
+    char t[20] = "asdge";
+    printf("%d ", strcmpA(s, t));
+    printf("%d", strcmp(s, t));
 }

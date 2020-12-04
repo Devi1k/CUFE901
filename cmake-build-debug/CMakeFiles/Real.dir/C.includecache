@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/MasterofSoftEngineering/real/2018/5.1.c
+D:/MasterofSoftEngineering/real/2017/1.27.c
 stdio.h
-D:/MasterofSoftEngineering/real/2018/stdio.h
-math.h
-D:/MasterofSoftEngineering/real/2018/math.h
+D:/MasterofSoftEngineering/real/2017/stdio.h
+string.h
+D:/MasterofSoftEngineering/real/2017/string.h
 
