@@ -288,32 +288,32 @@ exerciseAfterClass/Chapter9/3.4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.s
 .PHONY : exerciseAfterClass/Chapter9/3.4.c.s
 
-exercises/6.135.obj: exercises/6.135.c.obj
+exercises/5.90.obj: exercises/5.90.c.obj
 
-.PHONY : exercises/6.135.obj
+.PHONY : exercises/5.90.obj
 
 # target to build an object file
-exercises/6.135.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/6.135.c.obj
-.PHONY : exercises/6.135.c.obj
+exercises/5.90.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.90.c.obj
+.PHONY : exercises/5.90.c.obj
 
-exercises/6.135.i: exercises/6.135.c.i
+exercises/5.90.i: exercises/5.90.c.i
 
-.PHONY : exercises/6.135.i
+.PHONY : exercises/5.90.i
 
 # target to preprocess a source file
-exercises/6.135.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/6.135.c.i
-.PHONY : exercises/6.135.c.i
+exercises/5.90.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.90.c.i
+.PHONY : exercises/5.90.c.i
 
-exercises/6.135.s: exercises/6.135.c.s
+exercises/5.90.s: exercises/5.90.c.s
 
-.PHONY : exercises/6.135.s
+.PHONY : exercises/5.90.s
 
 # target to generate assembly for a file
-exercises/6.135.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/6.135.c.s
-.PHONY : exercises/6.135.c.s
+exercises/5.90.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.90.c.s
+.PHONY : exercises/5.90.c.s
 
 main.obj: main.c.obj
 
@@ -342,32 +342,32 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
-real/2017/1.27.obj: real/2017/1.27.c.obj
+real/2016/4.2.obj: real/2016/4.2.c.obj
 
-.PHONY : real/2017/1.27.obj
+.PHONY : real/2016/4.2.obj
 
 # target to build an object file
-real/2017/1.27.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2017/1.27.c.obj
-.PHONY : real/2017/1.27.c.obj
+real/2016/4.2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2016/4.2.c.obj
+.PHONY : real/2016/4.2.c.obj
 
-real/2017/1.27.i: real/2017/1.27.c.i
+real/2016/4.2.i: real/2016/4.2.c.i
 
-.PHONY : real/2017/1.27.i
+.PHONY : real/2016/4.2.i
 
 # target to preprocess a source file
-real/2017/1.27.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2017/1.27.c.i
-.PHONY : real/2017/1.27.c.i
+real/2016/4.2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2016/4.2.c.i
+.PHONY : real/2016/4.2.c.i
 
-real/2017/1.27.s: real/2017/1.27.c.s
+real/2016/4.2.s: real/2016/4.2.c.s
 
-.PHONY : real/2017/1.27.s
+.PHONY : real/2016/4.2.s
 
 # target to generate assembly for a file
-real/2017/1.27.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2017/1.27.c.s
-.PHONY : real/2017/1.27.c.s
+real/2016/4.2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Real.dir\build.make CMakeFiles/Real.dir/real/2016/4.2.c.s
+.PHONY : real/2016/4.2.c.s
 
 # Help Target
 help:
@@ -392,15 +392,15 @@ help:
 	@echo ... exerciseAfterClass/Chapter9/3.4.obj
 	@echo ... exerciseAfterClass/Chapter9/3.4.i
 	@echo ... exerciseAfterClass/Chapter9/3.4.s
-	@echo ... exercises/6.135.obj
-	@echo ... exercises/6.135.i
-	@echo ... exercises/6.135.s
+	@echo ... exercises/5.90.obj
+	@echo ... exercises/5.90.i
+	@echo ... exercises/5.90.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... real/2017/1.27.obj
-	@echo ... real/2017/1.27.i
-	@echo ... real/2017/1.27.s
+	@echo ... real/2016/4.2.obj
+	@echo ... real/2016/4.2.i
+	@echo ... real/2016/4.2.s
 .PHONY : help
 
 

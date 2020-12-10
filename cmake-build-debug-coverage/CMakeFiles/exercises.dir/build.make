@@ -76,27 +76,27 @@ include CMakeFiles/exercises.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/exercises.dir/flags.make
 
-CMakeFiles/exercises.dir/exercises/6.135.c.obj: CMakeFiles/exercises.dir/flags.make
-CMakeFiles/exercises.dir/exercises/6.135.c.obj: ../exercises/6.135.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exercises.dir/exercises/6.135.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\exercises.dir\exercises\6.135.c.obj   -c D:\MasterofSoftEngineering\exercises\6.135.c
+CMakeFiles/exercises.dir/exercises/5.90.c.obj: CMakeFiles/exercises.dir/flags.make
+CMakeFiles/exercises.dir/exercises/5.90.c.obj: ../exercises/5.90.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exercises.dir/exercises/5.90.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\exercises.dir\exercises\5.90.c.obj   -c D:\MasterofSoftEngineering\exercises\5.90.c
 
-CMakeFiles/exercises.dir/exercises/6.135.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exercises.dir/exercises/6.135.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\exercises\6.135.c > CMakeFiles\exercises.dir\exercises\6.135.c.i
+CMakeFiles/exercises.dir/exercises/5.90.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exercises.dir/exercises/5.90.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\exercises\5.90.c > CMakeFiles\exercises.dir\exercises\5.90.c.i
 
-CMakeFiles/exercises.dir/exercises/6.135.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exercises.dir/exercises/6.135.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\exercises\6.135.c -o CMakeFiles\exercises.dir\exercises\6.135.c.s
+CMakeFiles/exercises.dir/exercises/5.90.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exercises.dir/exercises/5.90.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\exercises\5.90.c -o CMakeFiles\exercises.dir\exercises\5.90.c.s
 
 # Object files for target exercises
 exercises_OBJECTS = \
-"CMakeFiles/exercises.dir/exercises/6.135.c.obj"
+"CMakeFiles/exercises.dir/exercises/5.90.c.obj"
 
 # External object files for target exercises
 exercises_EXTERNAL_OBJECTS =
 
-exercises.exe: CMakeFiles/exercises.dir/exercises/6.135.c.obj
+exercises.exe: CMakeFiles/exercises.dir/exercises/5.90.c.obj
 exercises.exe: CMakeFiles/exercises.dir/build.make
 exercises.exe: CMakeFiles/exercises.dir/linklibs.rsp
 exercises.exe: CMakeFiles/exercises.dir/objects1.rsp

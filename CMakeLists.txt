@@ -3,9 +3,9 @@ project(Code C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Real real/2017/1.27.c)
+add_executable(Real real/2016/4.2.c)
 add_executable(main main.c)
 add_executable(Input IO/IOinput.c)
-add_executable(exercises exercises/6.135.c)
+add_executable(exercises exercises/5.90.c)
 add_executable(exercisesAC exerciseAfterClass/Chapter9/3.4.c)
 add_executable(Tan TanHaoQiang/Chapter9/9.11.c)

@@ -4,22 +4,23 @@
 
 #include "stdio.h"
 #include "string.h"
-struct ss{
+
+struct ss {
     int a;
     float b;
-}students;
-struct ss get(int a,struct ss five){
+} students;
+
+struct ss get(int a, struct ss five) {
     struct ss ww;
     ww = students;
     return ww;
 }
 
 int main(void) {
-    char str[10],temp[10] = "Control";
-    for (int i = 0; i < 4; ++i) {
-        gets(str);
-        if (strcmp(temp,str)<0)
-            strcpy(temp,str);
-    }
-    puts(temp);
+    double d = 3.2;
+    int x, y;
+    x = 1.1;
+    y = (x + 3.9) / 5.0;
+    printf("%d",d*y);
+    return 0;
 }

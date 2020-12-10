@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/MasterofSoftEngineering/exercises/6.135.c
+D:/MasterofSoftEngineering/exercises/5.90.c
 stdio.h
--
-string.h
--
+D:/MasterofSoftEngineering/exercises/stdio.h
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exercises.dir/exercises/6.135.c.obj"
+  "CMakeFiles/exercises.dir/exercises/5.90.c.obj"
   "exercises.exe"
   "exercises.exe.manifest"
   "exercises.pdb"
