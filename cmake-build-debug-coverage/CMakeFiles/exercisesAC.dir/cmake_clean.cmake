@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj"
+  "CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj"
   "exercisesAC.exe"
   "exercisesAC.exe.manifest"
   "exercisesAC.pdb"

@@ -6,33 +6,34 @@
 #define N 3
 #define M 4
 
-int max(int a[][M]) {
+int *max(int a[][M]) {
+    int (*p)[M];
+    p = a;
     int mark = 0, sum, max = 0;
     for (int i = 0; i < N; ++i) {
         sum = 0;
         for (int j = 0; j < M; ++j) {
-            sum += a[i][j];
+            sum += *(*(p + i) + j);
         }
-        if (max < sum){
+        if (max < sum) {
             max = sum;
             mark = i;
         }
     }
-    return mark;
+    return *(p + mark);
 }
 
 int main(void) {
     int num[N][M];
-    int (*p)(int a[][M]), res;
+    int *res;
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < M; ++j) {
-            scanf("%d",&num[i][j]);
+            scanf("%d", &num[i][j]);
         }
     }
-    p = max;
-    res = p(num);
+    res = max(num);
     for (int i = 0; i < M; ++i) {
-        printf("%d  ",num[res][i]);
+        printf("%d  ", *(res + i));
     }
     return 0;
 }

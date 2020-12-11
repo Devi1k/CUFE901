@@ -261,59 +261,59 @@ TanHaoQiang/Chapter9/9.11.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tan.dir\build.make CMakeFiles/Tan.dir/TanHaoQiang/Chapter9/9.11.c.s
 .PHONY : TanHaoQiang/Chapter9/9.11.c.s
 
-exerciseAfterClass/Chapter9/3.4.obj: exerciseAfterClass/Chapter9/3.4.c.obj
+exerciseAfterClass/Chapter7/3.7.obj: exerciseAfterClass/Chapter7/3.7.c.obj
 
-.PHONY : exerciseAfterClass/Chapter9/3.4.obj
-
-# target to build an object file
-exerciseAfterClass/Chapter9/3.4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj
-.PHONY : exerciseAfterClass/Chapter9/3.4.c.obj
-
-exerciseAfterClass/Chapter9/3.4.i: exerciseAfterClass/Chapter9/3.4.c.i
-
-.PHONY : exerciseAfterClass/Chapter9/3.4.i
-
-# target to preprocess a source file
-exerciseAfterClass/Chapter9/3.4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.i
-.PHONY : exerciseAfterClass/Chapter9/3.4.c.i
-
-exerciseAfterClass/Chapter9/3.4.s: exerciseAfterClass/Chapter9/3.4.c.s
-
-.PHONY : exerciseAfterClass/Chapter9/3.4.s
-
-# target to generate assembly for a file
-exerciseAfterClass/Chapter9/3.4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.s
-.PHONY : exerciseAfterClass/Chapter9/3.4.c.s
-
-exercises/5.90.obj: exercises/5.90.c.obj
-
-.PHONY : exercises/5.90.obj
+.PHONY : exerciseAfterClass/Chapter7/3.7.obj
 
 # target to build an object file
-exercises/5.90.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.90.c.obj
-.PHONY : exercises/5.90.c.obj
+exerciseAfterClass/Chapter7/3.7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj
+.PHONY : exerciseAfterClass/Chapter7/3.7.c.obj
 
-exercises/5.90.i: exercises/5.90.c.i
+exerciseAfterClass/Chapter7/3.7.i: exerciseAfterClass/Chapter7/3.7.c.i
 
-.PHONY : exercises/5.90.i
+.PHONY : exerciseAfterClass/Chapter7/3.7.i
 
 # target to preprocess a source file
-exercises/5.90.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.90.c.i
-.PHONY : exercises/5.90.c.i
+exerciseAfterClass/Chapter7/3.7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.i
+.PHONY : exerciseAfterClass/Chapter7/3.7.c.i
 
-exercises/5.90.s: exercises/5.90.c.s
+exerciseAfterClass/Chapter7/3.7.s: exerciseAfterClass/Chapter7/3.7.c.s
 
-.PHONY : exercises/5.90.s
+.PHONY : exerciseAfterClass/Chapter7/3.7.s
 
 # target to generate assembly for a file
-exercises/5.90.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.90.c.s
-.PHONY : exercises/5.90.c.s
+exerciseAfterClass/Chapter7/3.7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercisesAC.dir\build.make CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.s
+.PHONY : exerciseAfterClass/Chapter7/3.7.c.s
+
+exercises/5.80.obj: exercises/5.80.c.obj
+
+.PHONY : exercises/5.80.obj
+
+# target to build an object file
+exercises/5.80.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.80.c.obj
+.PHONY : exercises/5.80.c.obj
+
+exercises/5.80.i: exercises/5.80.c.i
+
+.PHONY : exercises/5.80.i
+
+# target to preprocess a source file
+exercises/5.80.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.80.c.i
+.PHONY : exercises/5.80.c.i
+
+exercises/5.80.s: exercises/5.80.c.s
+
+.PHONY : exercises/5.80.s
+
+# target to generate assembly for a file
+exercises/5.80.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercises.dir\build.make CMakeFiles/exercises.dir/exercises/5.80.c.s
+.PHONY : exercises/5.80.c.s
 
 main.obj: main.c.obj
 
@@ -389,12 +389,12 @@ help:
 	@echo ... TanHaoQiang/Chapter9/9.11.obj
 	@echo ... TanHaoQiang/Chapter9/9.11.i
 	@echo ... TanHaoQiang/Chapter9/9.11.s
-	@echo ... exerciseAfterClass/Chapter9/3.4.obj
-	@echo ... exerciseAfterClass/Chapter9/3.4.i
-	@echo ... exerciseAfterClass/Chapter9/3.4.s
-	@echo ... exercises/5.90.obj
-	@echo ... exercises/5.90.i
-	@echo ... exercises/5.90.s
+	@echo ... exerciseAfterClass/Chapter7/3.7.obj
+	@echo ... exerciseAfterClass/Chapter7/3.7.i
+	@echo ... exerciseAfterClass/Chapter7/3.7.s
+	@echo ... exercises/5.80.obj
+	@echo ... exercises/5.80.i
+	@echo ... exercises/5.80.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

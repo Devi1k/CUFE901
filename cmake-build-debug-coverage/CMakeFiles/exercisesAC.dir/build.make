@@ -76,27 +76,27 @@ include CMakeFiles/exercisesAC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/exercisesAC.dir/flags.make
 
-CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj: CMakeFiles/exercisesAC.dir/flags.make
-CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj: ../exerciseAfterClass/Chapter9/3.4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\exercisesAC.dir\exerciseAfterClass\Chapter9\3.4.c.obj   -c D:\MasterofSoftEngineering\exerciseAfterClass\Chapter9\3.4.c
+CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj: CMakeFiles/exercisesAC.dir/flags.make
+CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj: ../exerciseAfterClass/Chapter7/3.7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\MasterofSoftEngineering\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\exercisesAC.dir\exerciseAfterClass\Chapter7\3.7.c.obj   -c D:\MasterofSoftEngineering\exerciseAfterClass\Chapter7\3.7.c
 
-CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\exerciseAfterClass\Chapter9\3.4.c > CMakeFiles\exercisesAC.dir\exerciseAfterClass\Chapter9\3.4.c.i
+CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MasterofSoftEngineering\exerciseAfterClass\Chapter7\3.7.c > CMakeFiles\exercisesAC.dir\exerciseAfterClass\Chapter7\3.7.c.i
 
-CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\exerciseAfterClass\Chapter9\3.4.c -o CMakeFiles\exercisesAC.dir\exerciseAfterClass\Chapter9\3.4.c.s
+CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MasterofSoftEngineering\exerciseAfterClass\Chapter7\3.7.c -o CMakeFiles\exercisesAC.dir\exerciseAfterClass\Chapter7\3.7.c.s
 
 # Object files for target exercisesAC
 exercisesAC_OBJECTS = \
-"CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj"
+"CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj"
 
 # External object files for target exercisesAC
 exercisesAC_EXTERNAL_OBJECTS =
 
-exercisesAC.exe: CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter9/3.4.c.obj
+exercisesAC.exe: CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj
 exercisesAC.exe: CMakeFiles/exercisesAC.dir/build.make
 exercisesAC.exe: CMakeFiles/exercisesAC.dir/linklibs.rsp
 exercisesAC.exe: CMakeFiles/exercisesAC.dir/objects1.rsp
