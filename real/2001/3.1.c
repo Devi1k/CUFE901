@@ -10,13 +10,13 @@ struct book {
 };
 
 void sortbook(struct book term, struct book *pbook, int count) {
-    struct book *q, *pend = pbook+1;
-    for (int k = 0; k < count; ++k, pend++) {
+    struct book *q, *pend = pbook;
+    for (int k = 0; k < count; ++k, pend++) ;
         for (; pbook < pend; pbook++) {
             if (pbook->price > term.price)
                 break;
         }
-    }
+
     for (q = pend - 1; q >= pbook; q--) {
         *(q + 1) = *q;
     }
