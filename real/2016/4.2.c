@@ -9,7 +9,7 @@ int main(void) {
     int m;
     for (i = 100; i <= 200; ++i) {
         m = 2;
-        while (i % m != 0 && m <= i) {
+        while (i % m != 0 && m < i) {
             m++;
         }
         if(m--==i){
