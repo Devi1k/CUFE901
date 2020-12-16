@@ -15,7 +15,8 @@ struct student {
 void write(struct student *students) {
     FILE *fp;
     float sum;
-    struct student (*p)[N];
+    struct student *p;
+    p = students;
     if ((fp = fopen("qwer", "wb")) == NULL) {
         fprintf(stderr, "Cannot open");
         exit(EXIT_FAILURE);
@@ -23,21 +24,18 @@ void write(struct student *students) {
     for (int i = 0; i < N; ++i) {
         sum = 0;
         for (int j = 0; j < M; ++j) {
-            sum += students[i].grade[j];
+            sum += (*(p + i)).grade[j];
         }
-        students[i].average = sum / M;
+        (*(p + i)).average = sum / M;
     }
     for (int i = 0; i < N; ++i) {
-        fwrite(&students[i], sizeof(struct student), 1, fp);
+        fwrite(p + i, sizeof(struct student), 1, fp);
     }
 
 
 }
 
 int main(void) {
-    int (*p)[M];
-    int a[N][M];
-    p = a;
     struct student students[N];
     for (int i = 0; i < N; ++i) {
         scanf("%d", &students[i].num);

@@ -55,7 +55,7 @@ int main(void) {
         p = p->next;
     }
     puts("\n");
-    SelectionSort(head);
+    sort(head);
     printf("After sorting:");
     p = head;
     while (p!=NULL){

@@ -47,7 +47,7 @@ struct node *sub(struct node *p, struct node *q) {
             free(s);
         }
     }
-    if (r->next == NULL) {
+    if (t->next) {
         r->next = t->next;
         free(t);
     }

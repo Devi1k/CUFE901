@@ -12,7 +12,6 @@ void insert(char s1[], char s2[], char ch) {
         if (s1[i] == ch)
             break;
     }
-    i++;
     for (int j = alen + blen - 1; j >= i + blen; --j) {
         s1[j] = s1[j - blen];
     }

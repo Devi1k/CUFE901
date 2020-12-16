@@ -26,7 +26,7 @@ struct node *create() {
 void search(struct node *s1, struct node *s2) {
     int flag = 0;
     struct node *p, *q, *h1, *k;
-    q = h1 = (struct node *) malloc(sizeof(struct node));
+    q =  (struct node *) malloc(sizeof(struct node));
     q->next = s1;
     p = q->next;
     //search
@@ -49,7 +49,6 @@ void search(struct node *s1, struct node *s2) {
     //delete
     q->next = p->next;
     free(p);
-    free(h1);
 }
 
 int main(void) {

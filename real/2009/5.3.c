@@ -3,7 +3,7 @@
 //
 #include "stdio.h"
 
-#define N 5
+#define N 3
 
 int main(void) {
     int m, n;
