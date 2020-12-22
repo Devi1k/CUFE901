@@ -14,7 +14,7 @@ int main(void) {
             scanf("%d%d", &a[i][j], &b[i][j]);
         }
     }
-    fun(a, b, c);+
+    fun(a, b, c);
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < m; ++j) {
             printf("%3d", a[i][j]);
@@ -38,14 +38,14 @@ int main(void) {
 
 
 void fun(int a[m][m], int b[m][m], int c[m][m]) {
-    int s = 0;
+    int s;
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < m; ++j) {
+            s = 0;
             for (int k = 0; k < m; ++k) {
                 s += a[i][k] * b[k][j];
             }
             c[i][j] = s;
-            s = 0;
         }
     }
 }

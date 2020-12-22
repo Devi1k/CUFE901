@@ -18,6 +18,5 @@ int main(void) {
         sum+=1/fun(n)*pow(-1,i-1);
     }
     printf("sum = %f\n",sum);
-
     return 0;
 }

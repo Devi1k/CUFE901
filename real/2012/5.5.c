@@ -33,17 +33,21 @@ struct node *create(int n) {
 }
 
 struct node *sub(struct node *head) {
-    struct node *head1, *p, *s, *r;
+    struct node *head1, *p, *s, *r, *q;
     head1 = r = (struct node *) malloc(sizeof(struct node));
-    p = head;
-    while (p->next != NULL) {
-        if (p->next->data % 2 == 0)
+    q = head;
+    p = q->next;
+    while (p != NULL) {
+        if (p->data % 2 != 0) {
+            q = p;
             p = p->next;
-        else {
-            s = p->next;
+        } else {
+            s = p;
             r->next = s;
-            p->next = s->next;
+            q->next = s->next;
             r = r->next;
+            q = p;
+            p = p->next;
         }
     }
     r->next = NULL;
