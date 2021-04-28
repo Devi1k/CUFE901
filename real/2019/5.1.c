@@ -3,18 +3,6 @@
 //
 #include "stdio.h"
 
-//double f1(double x) {
-//    static double i = 1;
-//    i *= x;
-//    return i;
-//}
-//
-//double f2(int n) {
-//    static double i = 1;
-//    i *= n;
-//    return i;
-//}
-
 double f1(int x, int n) {
     if (n == 1)
         return x;

@@ -1,3 +1,3 @@
-"E:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Tan.dir/objects.a
+"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Tan.dir/objects.a
 D:\mingw64\bin\ar.exe cr CMakeFiles\Tan.dir/objects.a @CMakeFiles\Tan.dir\objects1.rsp
-D:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Tan.dir/objects.a -Wl,--no-whole-archive  -o Tan.exe -Wl,--out-implib,libTan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Tan.dir\linklibs.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Tan.dir/objects.a -Wl,--no-whole-archive -o Tan.exe -Wl,--out-implib,libTan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Tan.dir\linklibs.rsp

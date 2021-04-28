@@ -8,10 +8,10 @@ int main(void) {
         int i[2];
         long k;
         char c[4];
-    }p;
+    }*s;
 
-    p.i[0] = 0x35;
-    p.i[1] = 0x34;
-    printf("%d,%d",sizeof(int),sizeof(long));
-    printf("%lx\n",p.k);
+    s->i[0] = 0x35;
+    s->i[1] = 0x34;
+    printf("%lx\n",s->k);
+    printf("%c\n",s->c[0]);
 }

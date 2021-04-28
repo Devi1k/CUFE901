@@ -6,58 +6,89 @@
 #define M 5
 
 void fun(int a[][M]) {
-    int *pmax, *pmin, temp;
-    pmax = pmin = a[0];
-    //最大最小值
+    int max, max2, max3, max4, max5;
+    int temp;
+    int row, column;
+    row = column = 0;
+    max = a[0][0];
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < M; ++j) {
-            if (*pmax < a[i][j])
-                pmax = &a[i][j];
-            if (*pmin > a[i][j])
-                pmin = &a[i][j];
+            if (max < a[i][j]) {
+                max = a[i][j];
+                row = i;
+                column = j;
+            }
         }
     }
     temp = a[2][2];
-    a[2][2] = *pmax;
-    *pmax = temp;
+    a[2][2] = a[row][column];
+    a[row][column] = temp;
 
-    temp = a[0][0];
-    a[0][0] = *pmin;
-    *pmin = temp;
-
-    //次小值
-    pmin = &a[0][1];
+    //
+    max2 = a[0][0];
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < M; ++j) {
-            if (i != 0 && j != 0 && *pmin > a[i][j])
-                pmin = &a[i][j];
+            if (max2 < a[i][j] && a[i][j] < max) {
+                max2 = a[i][j];
+                row = i;
+                column = j;
+            }
+        }
+    }
+    temp = a[0][0];
+    a[0][0] = a[row][column];
+    a[row][column] = temp;
+    max = max2;
+
+
+    //
+    max3 = 0;
+    for (int i = 0; i < M; ++i) {
+        for (int j = 0; j < M; ++j) {
+            if (max3 < a[i][j] && a[i][j] < max) {
+                max3 = a[i][j];
+                row = i;
+                column = j;
+            }
         }
     }
     temp = a[0][4];
-    a[0][4] = *pmin;
-    *pmin = temp;
-    //第三小
-    pmin = &a[0][1];
+    a[0][4] = a[row][column];
+    a[row][column] = temp;
+    max = max3;
+
+    //
+    max4 = 0;
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < M; ++j) {
-            if (a[i][j] != a[0][0] && a[i][j] != a[0][4] && *pmin > a[i][j])
-                pmin = &a[i][j];
+            if (max4 < a[i][j] && a[i][j] < max) {
+                max4 = a[i][j];
+                row = i;
+                column = j;
+            }
         }
     }
     temp = a[4][0];
-    a[4][0] = *pmin;
-    *pmin = temp;
-    //第四小
-    pmin = &a[0][1];
+    a[4][0] = a[row][column];
+    a[row][column] = temp;
+    max = max4;
+
+
+    //
+    max5 = 0;
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < M; ++j) {
-            if (a[i][j] != a[0][0] && a[i][j] != a[0][4] && a[i][j] != a[4][0] && *pmin > a[i][j])
-                pmin = &a[i][j];
+            if (max5 < a[i][j] && a[i][j] < max) {
+                max5 = a[i][j];
+                row = i;
+                column = j;
+            }
         }
     }
     temp = a[4][4];
-    a[4][4] = *pmin;
-    *pmin = temp;
+    a[4][4] = a[row][column];
+    a[row][column] = temp;
+
 }
 
 int main(void) {
@@ -69,14 +100,14 @@ int main(void) {
     }
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < M; ++j) {
-            printf("%4d ",a[i][j]);
+            printf("%4d ", a[i][j]);
         }
         printf("\n");
     }
     fun(a);
     for (int i = 0; i < M; ++i) {
         for (int j = 0; j < M; ++j) {
-            printf("%4d ",a[i][j]);
+            printf("%4d ", a[i][j]);
         }
         printf("\n");
     }

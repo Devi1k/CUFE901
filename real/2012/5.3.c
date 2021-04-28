@@ -35,7 +35,7 @@ int main(void) {
         }
     }
     for (i = 0; i < len; ++i) {
-        printf("%d ",k[i]);
+        printf("%d ", k[i]);
     }
     return 0;
 }

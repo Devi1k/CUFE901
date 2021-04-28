@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/MasterofSoftEngineering/TanHaoQiang/Chapter9/9.11.c" "D:/MasterofSoftEngineering/cmake-build-debug-coverage/CMakeFiles/Tan.dir/TanHaoQiang/Chapter9/9.11.c.obj"
+  "D:/901辅导/CUFE901/TanHaoQiang/Chapter8/8.10.c" "D:/901辅导/CUFE901/cmake-build-debug-coverage/CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.10.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

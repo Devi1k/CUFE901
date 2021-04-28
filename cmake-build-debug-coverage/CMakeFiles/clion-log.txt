@@ -1,4 +1,16 @@
-"E:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - MinGW Makefiles" D:\MasterofSoftEngineering
+"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - MinGW Makefiles" D:\901辅导\CUFE901
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/MasterofSoftEngineering/cmake-build-debug-coverage
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_FLAGS
+
+
+-- Build files have been written to: D:/901杈呭/CUFE901/cmake-build-debug-coverage

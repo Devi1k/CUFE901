@@ -47,21 +47,20 @@ void sort(struct node *head) {
 
 
 int main(void) {
-    struct node *head,*p;
+    struct node *head, *p;
     head = create();
     p = head;
-    while (p!=NULL){
-        printf("%d ",p->data);
+    while (p != NULL) {
+        printf("%d ", p->data);
         p = p->next;
     }
     puts("\n");
     sort(head);
     printf("After sorting:");
     p = head;
-    while (p!=NULL){
-        printf("%d ",p->data);
+    while (p != NULL) {
+        printf("%d ", p->data);
         p = p->next;
     }
     return 0;
-
 }

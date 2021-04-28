@@ -1,3 +1,3 @@
-"E:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Real.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\Real.dir/objects.a @CMakeFiles\Real.dir\objects1.rsp
-D:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Real.dir/objects.a -Wl,--no-whole-archive  -o Real.exe -Wl,--out-implib,libReal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Real.dir\linklibs.rsp
+"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\real.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\real.dir/objects.a @CMakeFiles\real.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\real.dir/objects.a -Wl,--no-whole-archive -o real.exe -Wl,--out-implib,libreal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\real.dir\linklibs.rsp

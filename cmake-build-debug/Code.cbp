@@ -8,218 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Real">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/Real.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Real"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Real/fast">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/Real.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Real/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Tan">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/Tan.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tan"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Tan/fast">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/Tan.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tan/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exercisesAC">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/exercisesAC.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercisesAC"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exercisesAC/fast">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/exercisesAC.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercisesAC/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exercises">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/exercises.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercises"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exercises/fast">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/exercises.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercises/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main/fast">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Input">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/Input.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/Input.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -229,15 +29,15 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Input"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 Input"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Input/fast">
-				<Option output="D:/MasterofSoftEngineering/cmake-build-debug/Input.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/MasterofSoftEngineering/cmake-build-debug"/>
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/Input.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -247,32 +47,232 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Input/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/MasterofSoftEngineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 Input/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tan">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/Tan.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tan"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tan/fast">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/Tan.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tan/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercisesAC">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/exercisesAC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercisesAC"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercisesAC/fast">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/exercisesAC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercisesAC/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercises">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/exercises.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercises"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercises/fast">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/exercises.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercises/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strategy">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/Strategy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 Strategy"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strategy/fast">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/Strategy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 Strategy/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="real">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/real.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 real"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="real/fast">
+				<Option output="D:/901辅导/CUFE901/cmake-build-debug/real.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 real/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/MasterofSoftEngineering/IO/IOinput.c">
+		<Unit filename="D:/901辅导/CUFE901/IO/IOinput.c">
 			<Option target="Input"/>
 		</Unit>
-		<Unit filename="D:/MasterofSoftEngineering/TanHaoQiang/Chapter9/9.11.c">
+		<Unit filename="D:/901辅导/CUFE901/Strategy/4.15.c">
+			<Option target="Strategy"/>
+		</Unit>
+		<Unit filename="D:/901辅导/CUFE901/TanHaoQiang/Chapter8/8.10.c">
 			<Option target="Tan"/>
 		</Unit>
-		<Unit filename="D:/MasterofSoftEngineering/exerciseAfterClass/Chapter7/3.7.c">
+		<Unit filename="D:/901辅导/CUFE901/exerciseAfterClass/Chapter7/3.7.c">
 			<Option target="exercisesAC"/>
 		</Unit>
-		<Unit filename="D:/MasterofSoftEngineering/exercises/5.80.c">
+		<Unit filename="D:/901辅导/CUFE901/exercises/5.80.c">
 			<Option target="exercises"/>
 		</Unit>
-		<Unit filename="D:/MasterofSoftEngineering/main.c">
-			<Option target="main"/>
+		<Unit filename="D:/901辅导/CUFE901/real/1997/3.2.c">
+			<Option target="real"/>
 		</Unit>
-		<Unit filename="D:/MasterofSoftEngineering/real/2019/1.25.c">
-			<Option target="Real"/>
-		</Unit>
-		<Unit filename="D:/MasterofSoftEngineering/CMakeLists.txt">
+		<Unit filename="D:/901辅导/CUFE901/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

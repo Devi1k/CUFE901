@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/MasterofSoftEngineering/IO/IOinput.c" "D:/MasterofSoftEngineering/cmake-build-debug-coverage/CMakeFiles/Input.dir/IO/IOinput.c.obj"
+  "D:/901辅导/CUFE901/IO/IOinput.c" "D:/901辅导/CUFE901/cmake-build-debug-coverage/CMakeFiles/Input.dir/IO/IOinput.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tan.dir/TanHaoQiang/Chapter9/9.11.c.obj"
+  "CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.10.c.obj"
   "Tan.exe"
   "Tan.exe.manifest"
   "Tan.pdb"

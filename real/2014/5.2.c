@@ -23,7 +23,6 @@ int split(int n, int *a, int *b) {
                     return 1;
             }
         }
-
     return 0;
 }
 

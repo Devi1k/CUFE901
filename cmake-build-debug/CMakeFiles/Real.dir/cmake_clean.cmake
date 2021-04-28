@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Real.dir/real/2019/1.25.c.obj"
-  "Real.exe"
-  "Real.exe.manifest"
-  "Real.pdb"
-  "libReal.dll.a"
+  "CMakeFiles/real.dir/real/1997/3.2.c.obj"
+  "libreal.dll.a"
+  "real.exe"
+  "real.exe.manifest"
+  "real.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang C)
-  include(CMakeFiles/Real.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/real.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

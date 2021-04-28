@@ -29,5 +29,4 @@ int main(void) {
     fclose(fp1);
     fclose(fp2);
     return 0;
-
 }
