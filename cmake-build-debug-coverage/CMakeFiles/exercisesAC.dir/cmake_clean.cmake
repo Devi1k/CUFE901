@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj"
-  "exercisesAC.exe"
-  "exercisesAC.exe.manifest"
+  "CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.o"
+  "exercisesAC"
   "exercisesAC.pdb"
-  "libexercisesAC.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

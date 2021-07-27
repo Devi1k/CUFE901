@@ -1,3 +1,1 @@
-"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Input.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\Input.dir/objects.a @CMakeFiles\Input.dir\objects1.rsp
-D:\mingw64\bin\gcc.exe --coverage -g -Wl,--whole-archive CMakeFiles\Input.dir/objects.a -Wl,--no-whole-archive -o Input.exe -Wl,--out-implib,libInput.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Input.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/cc --coverage -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Input.dir/IO/IOinput.c.o -o Input 

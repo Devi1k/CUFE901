@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.10.c.obj"
-  "Tan.exe"
-  "Tan.exe.manifest"
+  "CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.10.c.o"
+  "Tan"
   "Tan.pdb"
-  "libTan.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

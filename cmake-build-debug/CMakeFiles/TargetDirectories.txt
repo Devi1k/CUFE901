@@ -1,8 +1,8 @@
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Input.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Tan.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/exercisesAC.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/exercises.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Strategy.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/901辅导/CUFE901/cmake-build-debug/CMakeFiles/real.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/real.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Tan.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Strategy.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/exercisesAC.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/exercises.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Input.dir

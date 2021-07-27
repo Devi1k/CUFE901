@@ -1,6 +1,6 @@
 Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
-Build flags: --coverage
+Build flags: 
 Id flags:  
 
 The output was:
@@ -8,6 +8,4 @@ The output was:
 ld: library not found for -lSystem
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
-
-The C compiler identification could not be found in "/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug-coverage/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.gcno"
 

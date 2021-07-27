@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/901辅导/CUFE901/exerciseAfterClass/Chapter7/3.7.c" "D:/901辅导/CUFE901/cmake-build-debug-coverage/CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.obj"
+  "/Users/starry/Documents/901辅导/CUFE901/exerciseAfterClass/Chapter7/3.7.c" "/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug-coverage/CMakeFiles/exercisesAC.dir/exerciseAfterClass/Chapter7/3.7.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

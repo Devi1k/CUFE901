@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Strategy.dir/Strategy/4.15.c.obj"
-  "Strategy.exe"
-  "Strategy.exe.manifest"
+  "CMakeFiles/Strategy.dir/Strategy/4.15.c.o"
+  "Strategy"
   "Strategy.pdb"
-  "libStrategy.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

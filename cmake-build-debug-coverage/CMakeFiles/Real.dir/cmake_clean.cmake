@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/real.dir/real/1997/3.2.c.obj"
-  "libreal.dll.a"
-  "real.exe"
-  "real.exe.manifest"
+  "CMakeFiles/real.dir/real/1997/3.2.c.o"
+  "real"
   "real.pdb"
 )
 

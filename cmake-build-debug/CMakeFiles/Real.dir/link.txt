@@ -1,3 +1,1 @@
-"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\real.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\real.dir/objects.a @CMakeFiles\real.dir\objects1.rsp
-D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\real.dir/objects.a -Wl,--no-whole-archive -o real.exe -Wl,--out-implib,libreal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\real.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/real.dir/real/1997/3.2.c.o -o real 

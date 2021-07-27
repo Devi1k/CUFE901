@@ -1,3 +1,1 @@
-"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Tan.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\Tan.dir/objects.a @CMakeFiles\Tan.dir\objects1.rsp
-D:\mingw64\bin\gcc.exe --coverage -g -Wl,--whole-archive CMakeFiles\Tan.dir/objects.a -Wl,--no-whole-archive -o Tan.exe -Wl,--out-implib,libTan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Tan.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/cc --coverage -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Tan.dir/TanHaoQiang/Chapter8/8.10.c.o -o Tan 

@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Input.dir/IO/IOinput.c.obj"
-  "Input.exe"
-  "Input.exe.manifest"
+  "CMakeFiles/Input.dir/IO/IOinput.c.o"
+  "Input"
   "Input.pdb"
-  "libInput.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

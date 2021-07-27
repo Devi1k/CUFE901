@@ -1,3 +1,1 @@
-"E:\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\exercises.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\exercises.dir/objects.a @CMakeFiles\exercises.dir\objects1.rsp
-D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\exercises.dir/objects.a -Wl,--no-whole-archive -o exercises.exe -Wl,--out-implib,libexercises.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\exercises.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/exercises.dir/exercises/5.80.c.o -o exercises 
