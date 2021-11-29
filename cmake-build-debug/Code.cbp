@@ -27,6 +27,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="main">
+				<Option output="/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="real">
 				<Option output="/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/real" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug"/>
@@ -281,7 +319,10 @@
 		<Unit filename="/Users/starry/Documents/901辅导/CUFE901/exercises/5.80.c">
 			<Option target="exercises"/>
 		</Unit>
-		<Unit filename="/Users/starry/Documents/901辅导/CUFE901/real/1997/3.2.c">
+		<Unit filename="/Users/starry/Documents/901辅导/CUFE901/main.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/starry/Documents/901辅导/CUFE901/real/2011/5.6.c">
 			<Option target="real"/>
 		</Unit>
 		<Unit filename="/Users/starry/Documents/901辅导/CUFE901/CMakeLists.txt">

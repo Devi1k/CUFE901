@@ -14,8 +14,8 @@ int main(void) {
             n = t;
         } else {
             t = n - m;
+            m = n;
             n = t;
-            m = m;
         }
     }
     printf("gcd(m,n): = %d", m);

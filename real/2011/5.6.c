@@ -1,8 +1,8 @@
 //
 // Created by 57054 on 2020/11/22.
 //
-#include "stdlib.h"
 #include "stdio.h"
+#include "stdlib.h"
 
 
 struct node {
@@ -30,7 +30,7 @@ struct node *sub(struct node *p, struct node *q) {
     r->next = p;
     t->next = q;
     head = r;
-//    r = p;
+    //    r = p;
     while (r->next && t->next) {
         if (r->next->ch < t->next->ch)
             r = r->next;
@@ -64,11 +64,32 @@ void output(struct node *head) {
     }
 }
 
+
+struct node *reversal(struct node *head) {
+    struct node *temp = head;
+    struct node *cur = NULL;
+
+    while (temp->next) {
+        cur = temp->next;
+        if (cur->next != NULL) {
+            temp->next = cur->next;
+        } else {
+            temp->next = NULL;
+        }
+        cur->next = head;
+        head = cur;
+    }
+    return head;
+}
+
+
 int main(void) {
     struct node *s1, *s2;
     s1 = create();
     s2 = create();
     s1 = sub(s1, s2);
+    output(s1);
+    s1 = reversal(s1);
     output(s1);
     return 0;
 }

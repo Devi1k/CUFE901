@@ -1,4 +1,5 @@
 /Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/main.dir
 /Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/real.dir
 /Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Tan.dir
 /Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/Strategy.dir

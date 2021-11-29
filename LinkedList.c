@@ -10,12 +10,13 @@ struct node {
 };
 
 /**
- * 创建单链表
+ * 创建头节点为空的单链表
  * @return head
  */
 struct node *create() {
     struct node *p, *q, *head;
-    head = p = q = (struct node *) malloc(sizeof(struct node));
+    head = p = (struct node *) malloc(sizeof(struct node));
+    q = (struct node *) malloc(sizeof(struct node));
     scanf("%d", &q->data);
     while (q->data) {
         p->next = q;
@@ -26,6 +27,30 @@ struct node *create() {
     p->next = NULL;
     return head;
 }
+/**
+ * 头节点非空的链表
+ * @return
+ */
+struct node *create() {
+    struct node *head, *prev, *current;
+    head = NULL;
+    int num;
+    scanf("%d", &num);
+    while (num) {
+        current = (struct node *) malloc(sizeof (struct node));
+        if (head==NULL)
+            head = current;
+        else
+            prev->next = current;
+        current->next = NULL;
+        current->a = num;
+        prev = current;
+        scanf("%d", &num);
+    }
+    free(current);
+    return head;
+}
+
 
 /**
  * 创建循环链表
@@ -102,7 +127,7 @@ void BubbleSort(struct node *head) {
  * 删除某结点
  * @param head
  */
-void delete(struct node *head) {
+void delete (struct node *head) {
     struct node *p, *q, *h1;
     h1 = q = (struct node *) malloc(sizeof(struct node));
     //前节点
@@ -110,7 +135,8 @@ void delete(struct node *head) {
     p = q->next;
     //查找待删结点
     while (p != NULL) {
-        continue;
+        q = q->next;
+        p = p->next
     }
     //delete
     q->next = p->next;
@@ -146,5 +172,4 @@ void merge(struct node *p, struct node *q) {
         r->next = q->next;
         free(q);
     }
-
 }

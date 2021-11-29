@@ -1,5 +1,5 @@
-"/Users/starry/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/starry/Documents/901辅导/CUFE901
--- The C compiler identification is AppleClang 12.0.5.12050022
+"/Users/starry/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/starry/Documents/901辅导/CUFE901
+-- The C compiler identification is AppleClang 13.0.0.13000029
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped

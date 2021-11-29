@@ -9,18 +9,55 @@ struct node {
     struct node *next;
 };
 
+//struct node *create() {
+//    struct node *head, *p, *q;
+//    head = p = q = (struct node *) malloc(sizeof(struct node));
+//    scanf("%d", &q->a);
+//    while (q->a) {
+//        p->next = q;
+//        p = q;
+//        q = (struct node *) malloc(sizeof(struct node));
+//        scanf("%d", &q->a);
+//    }
+//    p->next = NULL;
+//    free(p);
+//    free(q);
+//    return head;
+//}
+
 struct node *create() {
-    struct node *head, *p, *q;
-    head = p = q = (struct node *) malloc(sizeof(struct node));
-    scanf("%d", &q->a);
-    while (q->a) {
-        p->next = q;
-        p = q;
-        q = (struct node *) malloc(sizeof(struct node));
-        scanf("%d", &q->a);
+    struct node *head, *prev, *current;
+    head = NULL;
+    int num;
+    scanf("%d", &num);
+    while (num) {
+        current = (struct node *) malloc(sizeof(struct node));
+        if (head == NULL)
+            head = current;
+        else
+            prev->next = current;
+        current->next = NULL;
+        current->a = num;
+        prev = current;
+        scanf("%d", &num);
     }
-    p->next = NULL;
     return head;
+}
+
+void delete (struct node *head, int num) {
+    struct node *p, *q;
+    q = (struct node *) malloc(sizeof(struct node));
+    //前节点
+    q->next = head;
+    p = q->next;
+    //查找待删结点
+    while (p->a != num) {
+        q = q->next;
+        p = p->next;
+    }
+    //delete
+    q->next = p->next;
+    free(p);
 }
 
 void sort(struct node *head) {
@@ -30,7 +67,7 @@ void sort(struct node *head) {
         mark = p;
         for (q = p->next; q != NULL; q = q->next) {
             if (mark->a < q->a) {
-//                printf("%d %d\n",temp->a,q->a);
+                //                printf("%d %d\n",temp->a,q->a);
                 mark = q;
             }
         }
@@ -51,7 +88,8 @@ int main(void) {
         p = p->next;
     }
     printf("\n");
-    sort(head);
+//    sort(head);
+    delete (head,11);
     p = head;
     while (p != NULL) {
         printf("%d ", p->a);

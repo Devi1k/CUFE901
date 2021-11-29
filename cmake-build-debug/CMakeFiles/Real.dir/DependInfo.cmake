@@ -1,15 +1,23 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/starry/Documents/901辅导/CUFE901/real/1997/3.2.c" "/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/real.dir/real/1997/3.2.c.o"
+  "/Users/starry/Documents/901辅导/CUFE901/real/2011/5.6.c" "/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles/real.dir/real/2011/5.6.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.
