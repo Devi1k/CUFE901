@@ -6,5 +6,6 @@
 int main(void){
     int a,b,c;
     a = 5,b = 6,c = 7;
-    printf("abc\bfdee");
+    printf("abc\b");
 }
+

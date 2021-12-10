@@ -7,8 +7,14 @@
 char encode(char ch) {
     int count;
     if ((ch <= 'z' && ch >= 'a') || (ch <= 'Z' && ch >= 'A')) {
-        count = ch - 'a' + 1;
-        ch = 26 - count + 1 - 1 + 'a';
+        if(ch <= 'z' && ch >= 'a'){
+            count = ch - 'a' + 1;
+            ch = 26 - count + 1 - 1 + 'a';
+        }else{
+            count = ch - 'A' + 1;
+            ch = 26 - count + 1 - 1 + 'A';
+        }
+
     }
     return ch;
 }
@@ -16,8 +22,14 @@ char encode(char ch) {
 char decode(char ch) {
     int count;
     if ((ch <= 'z' && ch >= 'a') || (ch <= 'Z' && ch >= 'A')) {
-        count = ch - 'a' + 1;
-        ch = 27 - count - 1 + 'a';
+        if(ch <= 'z' && ch >= 'a'){
+            count = ch - 'a' + 1;
+            ch = 27 - count - 1 + 'a';
+        }else{
+            count = ch - 'A' + 1;
+            ch = 27 - count - 1 + 'A';
+        }
+
     }
     return ch;
 }
@@ -26,6 +38,7 @@ int main(void) {
     FILE *fpin, *fpout;
     char s[80];
     char ch;
+    printf("2010 7.4");
     if ((fpin = fopen("text.txt", "w")) == NULL) {
         fprintf(stderr, "Cannot open this file");
         exit(EXIT_FAILURE);

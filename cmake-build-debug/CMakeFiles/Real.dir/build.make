@@ -66,27 +66,27 @@ include CMakeFiles/real.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/real.dir/flags.make
 
-CMakeFiles/real.dir/real/2011/5.6.c.o: CMakeFiles/real.dir/flags.make
-CMakeFiles/real.dir/real/2011/5.6.c.o: ../real/2011/5.6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/real.dir/real/2011/5.6.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/real.dir/real/2011/5.6.c.o -c /Users/starry/Documents/901辅导/CUFE901/real/2011/5.6.c
+CMakeFiles/real.dir/real/2018/4.2.c.o: CMakeFiles/real.dir/flags.make
+CMakeFiles/real.dir/real/2018/4.2.c.o: ../real/2018/4.2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/real.dir/real/2018/4.2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/real.dir/real/2018/4.2.c.o -c /Users/starry/Documents/901辅导/CUFE901/real/2018/4.2.c
 
-CMakeFiles/real.dir/real/2011/5.6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/real.dir/real/2011/5.6.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/starry/Documents/901辅导/CUFE901/real/2011/5.6.c > CMakeFiles/real.dir/real/2011/5.6.c.i
+CMakeFiles/real.dir/real/2018/4.2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/real.dir/real/2018/4.2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/starry/Documents/901辅导/CUFE901/real/2018/4.2.c > CMakeFiles/real.dir/real/2018/4.2.c.i
 
-CMakeFiles/real.dir/real/2011/5.6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/real.dir/real/2011/5.6.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/starry/Documents/901辅导/CUFE901/real/2011/5.6.c -o CMakeFiles/real.dir/real/2011/5.6.c.s
+CMakeFiles/real.dir/real/2018/4.2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/real.dir/real/2018/4.2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/starry/Documents/901辅导/CUFE901/real/2018/4.2.c -o CMakeFiles/real.dir/real/2018/4.2.c.s
 
 # Object files for target real
 real_OBJECTS = \
-"CMakeFiles/real.dir/real/2011/5.6.c.o"
+"CMakeFiles/real.dir/real/2018/4.2.c.o"
 
 # External object files for target real
 real_EXTERNAL_OBJECTS =
 
-real: CMakeFiles/real.dir/real/2011/5.6.c.o
+real: CMakeFiles/real.dir/real/2018/4.2.c.o
 real: CMakeFiles/real.dir/build.make
 real: CMakeFiles/real.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/starry/Documents/901辅导/CUFE901/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable real"
